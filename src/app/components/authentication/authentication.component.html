@@ -41,7 +41,7 @@
   </fieldset>
 
 <button type="submit" class="btn btn-success btn-back" [disabled]=!loginForm.valid>Login</button>&nbsp;
-<a class="btn btn-success font-white btn-back" (click)="registerCall()">Register</a>&nbsp;
+<button type="submit" class="btn btn-success btn-back" (click)="registerCall()">Register</button>>&nbsp;
 <span>Or <a (click)="socialSignIn('google')" class="google-button"><img src="assets/images/home/google.jpg" height=50px width=50px></a></span>
 <p>{{loading}}</p>
 <p>{{message}}</p>
